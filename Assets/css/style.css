@@ -113,8 +113,8 @@ p, a {
     text-align: center;
     position: absolute;
     float: left;
-    top: 250px;
-    left: 542px;
+    top: 297px;
+    left: 534px;
     z-index: 1;
     padding: 15px 110px;
     color: white;
@@ -125,8 +125,8 @@ p, a {
    background-color:  #4aaaa5;;
     text-align: center;
     position: absolute;
-   top: 250px;
-   left: 218px;
+   top: 297px;
+   left: 210px;
     z-index: 1;
     padding: 15px 135px;
     color:white;
@@ -135,8 +135,8 @@ p, a {
    background-color:  #4aaaa5;;
    text-align: center;
    position: absolute;
-   top: 410px;
-   left: 218px;
+   top: 463px;
+   left: 210px;
    z-index: 1;
    padding: 15px 133px;  
    color:white;
@@ -146,8 +146,8 @@ p, a {
    background-color:  #4aaaa5;;
    text-align: center;
    position: absolute;
-   top: 410px;
-   left: 542px;
+   top: 463px;
+   left: 534px;
    z-index: 1;
    padding: 15px 120px;  
    color:white;
@@ -157,10 +157,10 @@ p, a {
    background-color:  #4aaaa5;;
     text-align: center;
     position: absolute;
-   top: 250px;
-   left: 218px;
+   top: 627px;
+   left: 210px;
     /* z-index: 1; */
-    padding: 15px 135px;
+    padding: 15px 137.5px;
     color:white;
 }
 
@@ -180,6 +180,6 @@ input[type=submit]{
 textarea{
     margin: 10px auto;
     width:99.1%;
-    height: 50px;
+    height: 150px;
 }
 
