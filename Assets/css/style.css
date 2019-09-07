@@ -1,3 +1,4 @@
+
 header{
     background-color: white;
     border-bottom: solid 2px #cccccc;
@@ -37,6 +38,7 @@ body{
     margin:0;
     margin-bottom: 100px;
     background-color: #dddddd;
+    /* min-width: 1200px; */
 
 }
 
@@ -83,13 +85,14 @@ img{
     padding-top: 15px;
     float:left;
     padding-right: 15px;
-    position: relative;
-   }
+   
+     }
 p, a {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
      color: gray;
      text-decoration: none;
-     line-height: 1.5em;
+     line-height: 2em;
+     text-indent: 35px;
     
  }
 
@@ -100,66 +103,77 @@ p, a {
     bottom: 0;
     width: 100%; 
     background-color:#666666;
-    border-top: solid 5px #4aaaa5;
+    border-top: solid 8px #4aaaa5;
     margin-top: 10px;
     text-align:center;
     
  }
 
+ a:hover{
+     border:solid 1px gray; 
+     background-color: gray;
+     color: white;
+ }
+
  /* Portfolio */
 
- .Pic2{
+.gallery1 , .gallery2 , .gallery3 , .gallery4, .gallery5{
+    box-sizing: border-box;
+    position: relative;
+      
+}
+  
+
+
+ #pic2{
     background-color:  #4aaaa5;;
     text-align: center;
     position: absolute;
-    float: left;
-    top: 297px;
-    left: 534px;
-    z-index: 1;
+    top: 115px;
+    left: 324px;
     padding: 15px 110px;
     color: white;
 
 }
 
-.Pic1{
+#pic1{
    background-color:  #4aaaa5;;
     text-align: center;
     position: absolute;
-   top: 297px;
-   left: 210px;
-    z-index: 1;
+    top: 115px;
+   /* top: 297px; */
+   /* left: 210px; */
     padding: 15px 135px;
     color:white;
 }
-.Pic3{
+#pic3{
    background-color:  #4aaaa5;;
    text-align: center;
    position: absolute;
-   top: 463px;
-   left: 210px;
-   z-index: 1;
-   padding: 15px 133px;  
+   top: 279px;
+   /* left: 210px; */
+   padding: 15px 133.5px;  
    color:white;
 }
 
-.Pic4{
+#pic4{
    background-color:  #4aaaa5;;
    text-align: center;
    position: absolute;
-   top: 463px;
-   left: 534px;
-   z-index: 1;
-   padding: 15px 120px;  
+   top: 279px;
+   /* top: 463px; */
+   left: 324px;
+   padding: 15px 120.5px;  
    color:white;
 }
 
-.Pic5{
+#pic5{
    background-color:  #4aaaa5;;
     text-align: center;
     position: absolute;
-   top: 627px;
-   left: 210px;
-    /* z-index: 1; */
+    top: 444px;
+   /* top: 627px; */
+   /* left: 210px; */
     padding: 15px 137.5px;
     color:white;
 }
